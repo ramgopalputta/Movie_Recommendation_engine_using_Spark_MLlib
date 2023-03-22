@@ -1,0 +1,8 @@
+# Download the data from MovieLens (https://grouplens.org/datasets/movielens/latest/):
+
+
+To work on limited data, you can download a small dataset that comprises 100,000 ratings and 3,600 tag applications for 9,000 movies, provided by 600 users.
+
+To work on large data, download full dataset that comprises 27,000,000 ratings and 1,100,000 tag applications for 58,000 movies, provided by 280,000 users.
+
+Unzip the file. The files you'll be using are movies.csv and ratings.csv.
