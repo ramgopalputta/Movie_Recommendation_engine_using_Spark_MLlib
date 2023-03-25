@@ -26,3 +26,13 @@ factor matrix and solves for other. This process continues till it converges.
 (This alternation between which matrix to optimize is where the "alternating" in
 the name comes from.)
 
+# HOW COLLABORATIVE FILTERING WORKS:
+
+![image](https://user-images.githubusercontent.com/114395443/227746181-a48801aa-20e8-4fd9-bd08-959d7bb44079.png)
+
+From the above User rating table, the interests of USER 3 seems similatr to USER 1. Hence, MOVIE 5 is recommended to USER 3.
+
+# CHALLENGES FACED BY COLLABORATIVE FILTERING:
+
+![image](https://user-images.githubusercontent.com/114395443/227746278-fa8d539a-f08c-4b1e-a718-146d98f1659e.png)
+
