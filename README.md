@@ -14,6 +14,7 @@ Machine learning algorithms.
 recommendations.
 
 # COLLABORATIVE FILTERING:
+* Collaborative filtering is a type of machine learning algorithm that recommends items to users based on the preferences of other users with similar tastes.
 • Also known as Social filtering, this technique aims to fill the missing entries of a
 user-item association matrix (user-movie rating matrix) in which users and
 products (movies) are described by a set of latent factors.
