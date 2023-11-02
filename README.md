@@ -19,9 +19,14 @@
 
 This technique effectively handles data sparsity, i.e., the fact that most users have only rated a small fraction of the movies available.
 
-# Alternate Least Square (ALS) algorithm
-* ALS is an iterative algorithm where in each iteration, the algorithm fixes one factor matrix and solves for other. This process continues till it converges.
-(This alternation between which matrix to optimize is where the "alternating" in the name comes from.)
+# ALTERNATE LEAST SQUARE (ALS) algorithm
+* It is a matrix factorization algorithm, which means that it decomposes the user-movie rating matrix into two lower-dimensional matrices, one for users and one for movies. The resulting matrices represent latent features of users and movies, respectively.
+
+* The ALS algorithm works by iteratively solving the following two subproblems:
+Given the movie matrix, solve for the user matrix.
+Given the user matrix, solve for the movie matrix.
+
+This process is repeated until the algorithm converges. This alternation between which matrix to optimize is where the "alternating" in the name comes from.
 
 # HOW COLLABORATIVE FILTERING WORKS:
 
