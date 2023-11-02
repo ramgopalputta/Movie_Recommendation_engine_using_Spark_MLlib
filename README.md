@@ -15,10 +15,11 @@
 # MOVIE-USER RATING MATRIX FACTORIZATION:
 * It is a technique used in movie recommendation engines to decompose the user-movie rating matrix into two lower-dimensional matrices, one for users and one for movies. The resulting matrices represent latent features of users and movies, respectively. These latent features can be used to predict user ratings for unwatched movies, and to recommend movies to users that they are likely to enjoy.
 
-![image](https://github.com/ramgopalputta/Movie_Recommendation_engine_using_Spark_MLlib/assets/114395443/6ec6283c-dd87-449e-a6d9-82c048a84ee7)
+![image](https://github.com/ramgopalputta/Movie_Recommendation_engine_using_Spark_MLlib/assets/114395443/5f3b1bec-116a-4936-b916-3a7dd89190a5)
 
+This technique effectively handles data sparsity, i.e., the fact that most users have only rated a small fraction of the movies available.
 
-# 
+# Alternate Least Square (ALS) algorithm
 * ALS is an iterative algorithm where in each iteration, the algorithm fixes one factor matrix and solves for other. This process continues till it converges.
 (This alternation between which matrix to optimize is where the "alternating" in the name comes from.)
 
@@ -33,6 +34,10 @@ From the above User rating table, the interests of USER 3 seems similatr to USER
 ![image](https://user-images.githubusercontent.com/114395443/227746278-fa8d539a-f08c-4b1e-a718-146d98f1659e.png)
 
 
-### References:
-https://www.youtube.com/watch?v=d5u8JJRmALY
+
+
+
+References:
+[https://www.youtube.com/watch?v=d5u8JJRmALY](https://aws.amazon.com/blogs/machine-learning/build-a-movie-recommender-with-factorization-machines-on-amazon-sagemaker/)https://aws.amazon.com/blogs/machine-learning/build-a-movie-recommender-with-factorization-machines-on-amazon-sagemaker/
+https://bard.google.com/
 
